@@ -40,7 +40,7 @@ for _Ls in range(0, Ls_num):
 				step = 1
 				ax.errorbar(nfluxes[start:stop:step]*2, AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
 					fmt='o', label=(r'$\mu = $' + str(mu[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_mu], color=colors[_mu])
-				l = mlines.Line2D([0,nfluxes[stop-1]*2], [0,-(nfluxes[stop-1])*2 * mu[start] * 3 * Lt[start] / (3.141593 * Lt[start]**2 )], color=colors[_mu])
+				l = mlines.Line2D([0,nfluxes[stop-1]*2], [0,(nfluxes[stop-1])*2 * mu[start] * 3 * Lt[start] / (3.141593 * Lt[start]**2 )], color=colors[_mu])
 				ax.add_line(l)
 			printindex = _Ls * (Lt_num * mu_num * ma_num * nfluxes_num) + \
 						_Lt * (mu_num * ma_num * nfluxes_num) + \
