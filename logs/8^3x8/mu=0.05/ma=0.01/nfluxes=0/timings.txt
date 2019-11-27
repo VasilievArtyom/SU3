@@ -1,0 +1,32 @@
+Timings:
+-------------------
+Name: Dirac
+Total execution time: 3.285684e+04 ms
+Mean execution time: 2.880360e-01 ms
+Times called: 114072
+-------------------
+Name: Metropoils
+Total execution time: 3.450000e+04 ms
+Mean execution time: 3.136364e+03 ms
+Times called: 11
+-------------------
+Name: CG
+Total execution time: 4.618000e+04 ms
+Mean execution time: 1.096391e+01 ms
+Times called: 4212
+-------------------
+Name: Fermionic force
+Total execution time: 0.000000e+00 ms
+Mean execution time: 0.000000e+00 ms
+Times called: 0
+-------------------
+Name: Memory transactions
+Total execution time: 0.000000e+00 ms
+Mean execution time: 0.000000e+00 ms
+Times called: 0
+-------------------
+Name: Reduction in CG
+Total execution time: 0.000000e+00 ms
+Mean execution time: 0.000000e+00 ms
+Times called: 0
+-------------------
