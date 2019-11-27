@@ -12,9 +12,9 @@ mu_num=8
 ma_num=1
 nfluxes_num=33
 
-for Ls in 12
+for Ls in 8 10 12
 do
-for Lt in 12
+for Lt in 8 10 12
 do
 
 currentlatticepath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/AxialCurrentData/${Ls}^3x${Lt}
