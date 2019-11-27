@@ -16,12 +16,13 @@ inpath = ""
 Ls, Lt, mu, ma, nfluxes, AxialCurrent, AxialCurrentErr = np.loadtxt(path.join(inpath, "AxialCurrent.txt"), usecols=(0, 1, 2, 3, 4, 5, 6), unpack=True)
 
 #just to easily iterate over arrays
-Ls_num = 3
-Lt_num = 3
+Ls_num = 1
+Lt_num = 1
 ma_num = 1
-mu_num = 16 
-nfluxes_num = 31
+mu_num = 1
+nfluxes_num = 51
 
+err_norm = 1.0#0.08164965809
 
 #Axial current as function of nfluxes and \mu
 outpath = "AxialCurrent/nfluxes_mu/"
@@ -37,7 +38,7 @@ for _Ls in range(0, Ls_num):
 						_ma * nfluxes_num
 				stop = start + nfluxes_num
 				step = 1
-				ax.errorbar(nfluxes[start:stop:step]*2, AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*0.08164965809, 
+				ax.errorbar(nfluxes[start:stop:step]*2, AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
 					fmt='o', label=(r'$\mu = $' + str(mu[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_mu], color=colors[_mu])
 				l = mlines.Line2D([0,nfluxes[stop-1]*2], [0,-(nfluxes[stop-1])*2 * mu[start] * 3 * Lt[start] / (3.141593 * Lt[start]**2 )], color=colors[_mu])
 				ax.add_line(l)
@@ -49,7 +50,14 @@ for _Ls in range(0, Ls_num):
 			plt.xlabel(r'$n_{fluxes}$')
 			ax.xaxis.grid(b=True, which='both')
 			ax.yaxis.grid(b=True, which='both')
-			ax.legend(loc='best', frameon=True)
+			# Shrink current axis by 20%
+			box = ax.get_position()
+			ax.set_position([box.x0, box.y0, box.width * 0.9, box.height])
+
+			# Put a legend to the right of the current axis
+			ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+			# ax.legend(loc='upper left', frameon=True)
+			# plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0.)
 			plt.title(r'$m_q$ = ' + str(ma[printindex]) + r' $Ls$ = ' + str(Ls[printindex]) + r' $Lt$ = ' + str(Lt[printindex]))
 			plt.draw()
 			fig.savefig(path.join(outpath, "AxCurr_{0}.png".format('ma' + str(ma[printindex]) + 'Ls' + str(Ls[printindex]) + 'Lt' + str(Lt[printindex]))))
@@ -69,7 +77,7 @@ for _Ls in range(0, Ls_num):
 						_ma * nfluxes_num
 				stop = start + nfluxes_num
 				step = 1
-				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*0.08164965809, 
+				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
 					fmt='o', label=(r'$m_q = $' + str(ma[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_ma], color=colors[_ma])
 			printindex = _Ls * (Lt_num * mu_num * ma_num * nfluxes_num) + \
 						_Lt * (mu_num * ma_num * nfluxes_num) + \
@@ -99,7 +107,7 @@ for _Ls in range(0, Ls_num):
 						_ma * nfluxes_num
 				stop = start + nfluxes_num
 				step = 1
-				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*0.08164965809, 
+				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
 					fmt='o', label=(r'$N_t = $' + str(Lt[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_Lt], color=colors[_Lt])
 			printindex = _Ls * (Lt_num * mu_num * ma_num * nfluxes_num) + \
 						0 * (mu_num * ma_num * nfluxes_num) + \
@@ -129,7 +137,7 @@ for _ma in range(0, ma_num):
 						_ma * nfluxes_num
 				stop = start + nfluxes_num
 				step = 1
-				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*0.08164965809, 
+				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
 					fmt='o', label=(r'$N_s = $' + str(Ls[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_Ls], color=colors[_Ls])
 			printindex = 0 * (Lt_num * mu_num * ma_num * nfluxes_num) + \
 						_Lt * (mu_num * ma_num * nfluxes_num) + \

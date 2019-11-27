@@ -55,10 +55,12 @@ for _ma in range(0, ma_num):
 	ax.xaxis.grid(b=True, which='both')
 	ax.yaxis.grid(b=True, which='both')
 	plt.title(r'$m_q$ = ' + str(ma[printindex]) + r' $Ls$ = ' + str(Ls[printindex]) + r' $Lt$ = ' + str(Lt[printindex]))
+	box = ax.get_position()
+	ax.set_position([box.x0, box.y0, box.width * 0.9, box.height])
+
+	# Put a legend to the right of the current axis
+	ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 	plt.draw()
-      #fig.savefig(path.join(outpath, "AxCurr_0_{0}.png".format('ma' + str(ma[printindex]) + 'Ls' + str(Ls[printindex]) + 'Lt' + str(Lt[printindex]))))
-      #ax.legend(loc='best', frameon=True)
-      #plt.draw()
 	fig.savefig(path.join(outpath, "AxCurr_{0}.png".format('ma' + str(ma[printindex]) + 'Ls' + str(Ls[printindex]) + 'Lt' + str(Lt[printindex]))))
 	fig.clf();
 
@@ -85,9 +87,11 @@ for _ma in range(0, ma_num):
 	ax.yaxis.grid(b=True, which='both')
 	ax.legend(loc='best', frameon=True)
 	plt.title(r'$m_q$ = ' + str(ma[printindex]) + r' $Ls$ = ' + str(Ls[printindex]) + r' $Lt$ = ' + str(Lt[printindex]))
+	box = ax.get_position()
+	ax.set_position([box.x0, box.y0, box.width * 0.9, box.height])
+
+	# Put a legend to the right of the current axis
+	ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 	plt.draw()
-      #fig.savefig(path.join(outpath, "AxCurr_0_{0}.png".format('ma' + str(ma[printindex]) + 'Ls' + str(Ls[printindex]) + 'Lt' + str(Lt[printindex]))))
-      #ax.legend(loc='best', frameon=True)
-      #plt.draw()
 	fig.savefig(path.join(outpath, "AxCurr_{0}_raw.png".format('ma' + str(ma[printindex]) + 'Ls' + str(Ls[printindex]) + 'Lt' + str(Lt[printindex]))))
 	fig.clf();
