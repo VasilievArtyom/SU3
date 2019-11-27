@@ -18,7 +18,7 @@ Ls, Lt, mu, ma, nfluxes, AxialCurrent, AxialCurrentErr = np.loadtxt(path.join(in
 
 ax.errorbar(nfluxes*2, AxialCurrent, yerr=AxialCurrentErr, 
 		fmt='o', label=(r'$z$'), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[5], color=colors[5])
-l = mlines.Line2D([0,nfluxes[-2]], [0,(nfluxes[-2]) * mu[0] * 3 * Lt[0] / (3.141593 * Lt[0]**2 )], color=colors[5])
+#l = mlines.Line2D([0,nfluxes[-1]*2], [0,(nfluxes[-2]*2) * mu[0] * 3 * Lt[0] / (3.141593 * Lt[0]**2 )], color=colors[5])
 ax.add_line(l)
 plt.ylabel(r'$\left\langle  J^5_{\mu}  \right\rangle$', {'fontsize': 10})
 plt.xlabel(r'$n_{fluxes}$')
