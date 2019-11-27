@@ -259,3 +259,5 @@ Thu Nov 28 00:37:27 MSK 2019
 Thu Nov 28 00:38:58 MSK 2019
 /home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.30/ma=0.001/nfluxes=27
 Thu Nov 28 00:40:40 MSK 2019
+/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.30/ma=0.001/nfluxes=28
+Thu Nov 28 00:41:57 MSK 2019
