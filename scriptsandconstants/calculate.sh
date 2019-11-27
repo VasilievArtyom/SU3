@@ -29,6 +29,8 @@ echo $(date)
 echo ${logspath} >> calclog.txt
 echo $(date) >> calclog.txt
 
+./BU.sh
+
 done
 done
 done
@@ -36,3 +38,8 @@ done
 done
 
 echo "Calculation finished at $(date)" >> calclog.txt
+
+./AxialCurrentFullCollect.sh 
+./plotAxialCurrent.sh 
+
+./BU.sh
