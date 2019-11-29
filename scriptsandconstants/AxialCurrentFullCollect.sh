@@ -9,7 +9,7 @@ echo "#Ls   Lt  mu  ma  nfluxes AxialCurrent Err" >> AxialCurrent.txt
 Ls_num=3
 Lt_num=3
 mu_num=8
-ma_num=1
+ma_num=3
 nfluxes_num=33
 
 for Ls in 8 10 12
@@ -22,7 +22,7 @@ currentlatticeprintfile=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandcon
 
 for mu in 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70
 do
-for ma in 0.001
+for ma in 0.001 0.01 0.0001
 do
 
 currentprinfile=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/AxialCurrentData/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/AxialCurrent.txt
