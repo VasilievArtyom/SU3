@@ -1,0 +1,74 @@
+Ls, spatial lattice size
+10
+Lt, temporal latticesize
+8
+beta
+5.15
+c_plaq
+1.00
+c_rect
+0.00
+rho, parameter of the isotropic stout smearing (2 steps, relevant for the Dirac operator; 0.0 --- no smearing)
+0.0
+leapfrog N
+2
+leapfrog dt
+0
+start_info, 0 --- cold start; 1 --- hot start; 2 --- starting from conf_start.conf, located in confs_dir
+0
+skip_confs, only configurations, separated by skip_confs, will be saved
+0
+NMC, number of configurations for generation
+1
+adjust_leapfrog, 1 --- tune integrator step for desired acceptance (see below)
+1
+N_thermalisation, number of configurations for thermalisation
+10
+N_accept_measure, every N_accept_measure configurations leapfrog dt will be corrected to fit acceptance rate boundaries
+5
+N_min_acc, minimal acceptance rate
+0.70
+N_max_acc, maximal acceptance rate
+0.85
+flag_add_fermions, 0 --- without fermions, 1 --- with fermions
+1
+m_qa, mass of the light quarks
+0.01
+flag_add_strange_quark, 0 --- without s-quark, 1 --- with s-quark
+0
+m_sa, mass of the strange quark, below it should stand 3 files with the coefficients of approximations (-1/4, -1/4, 1/8)
+0.40
+/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvFourthRoot.txt
+/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvFourthRoot_fine.txt
+/home/vasiliev_artyom/proj/SU3_stag/approx_files/EighthRoot.txt
+Parameters CG for MD, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)
+0 1e-12 0.1
+Parameters CG for Metro, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)
+0 1e-12 0.1
+Parameters CG for Observables, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)
+0 1e-12 0.1
+CG_max_iterations(for all types)
+100000
+omelyan lambda, parameter of the Omelyan integrator
+0.193
+omelyan N_steps, N_gauge_steps/N_fermion_steps in the multiple timescales integration
+3
+n_rooting, power of the root from fermionic determinant, below it should stand 3 files with the coefficients of approximations
+2
+/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvSqrRoot.txt
+/home/vasiliev_artyom/proj/SU3_stag/approx_files/FourthRoot.txt
+/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvSqrRoot_fine.txt
+N_stoch_estimator, number of random vectors for the stochastic estimator. It should be even.
+32
+n_print_obs, only for (n_print_obs)th configuration observables will be calculated during generation
+1
+n_fermions, n-root trick (useful only for n_rooting > 1)
+1
+Magnetic fields (nfluxes), this flag should be used together with the macros EMFIELD in Makefile.var
+23
+mu5 (0=const, 1=from file). Next value is either constant or file_name. Only 0 works now
+0 0.0
+mu_im_u mu_im_d mu_im_s, imaginary chemical potential for each quark
+0.40 0.40 0.40
+mu_isospin and lambda, isospin chemical potential for light quarks and isospin breaking source (the macros MUISO in Makefile.var has to be enabled)
+0.00 0.00

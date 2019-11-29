@@ -4,7 +4,7 @@ for Ls in 8 10 12
 do
 for Lt in 8 10 12
 do
-for ma in 0.001
+for ma in 0.01 0.0001
 do
 for mu in 0.00 
 do
