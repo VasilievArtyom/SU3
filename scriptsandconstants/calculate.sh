@@ -5,12 +5,6 @@ projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
 #rm calclog.txt
 echo "Start calculation at $(date)" >> calclog.txt
 
-done
-done
-done
-done
-done
-
 for Ls in 8 10
 do
 for Lt in 8 10 12 
