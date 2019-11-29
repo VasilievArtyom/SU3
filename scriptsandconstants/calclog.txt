@@ -1959,3 +1959,5 @@ Fri Nov 29 11:16:48 MSK 2019
 Fri Nov 29 11:21:58 MSK 2019
 /home/vasiliev_artyom/_scratch/compute/SU3/logs/10^3x10/mu=0.10/ma=0.001/nfluxes=19
 Fri Nov 29 11:26:37 MSK 2019
+/home/vasiliev_artyom/_scratch/compute/SU3/logs/10^3x10/mu=0.10/ma=0.001/nfluxes=20
+Fri Nov 29 11:30:29 MSK 2019
