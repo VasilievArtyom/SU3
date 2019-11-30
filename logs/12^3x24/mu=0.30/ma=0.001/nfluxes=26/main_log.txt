@@ -1,0 +1,36 @@
+--------------------------------------------------
+-                HMC SU3 started                 -
+--------------------------------------------------
+Start time: 30-11-2019 11:48:47
+Command line: 
+
+/home/vasilievav15_2089/_scratch/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasilievav15_2089/_scratch/compute/SU3/logs/12^3x24/mu=0.30/ma=0.001/nfluxes=26 -O/home/vasilievav15_2089/_scratch/compute/SU3/configurations/12^3x24/mu=0.30/ma=0.001/nfluxes=26 -D/home/vasilievav15_2089/_scratch/compute/SU3/output/12^3x24/mu=0.30/ma=0.001/nfluxes=26 -Nconf_gen -C/home/vasilievav15_2089/_scratch/compute/SU3/scriptsandconstants/12^3x24/mu=0.30/ma=0.001/nfluxes=26/constants.txt -Ao 
+
+Command line parameters:
+Directory with configurations:   /home/vasilievav15_2089/_scratch/compute/SU3/configurations/12^3x24/mu=0.30/ma=0.001/nfluxes=26
+Output directory:                /home/vasilievav15_2089/_scratch/compute/SU3/output/12^3x24/mu=0.30/ma=0.001/nfluxes=26
+Calculator options:              o
+Logs output directory:           /home/vasilievav15_2089/_scratch/compute/SU3/logs/12^3x24/mu=0.30/ma=0.001/nfluxes=26
+Constants file:                  /home/vasilievav15_2089/_scratch/compute/SU3/scriptsandconstants/12^3x24/mu=0.30/ma=0.001/nfluxes=26/constants.txt
+Pack number:                     0
+--------------------------------------------------
+-                CUDA Parameters                 -
+--------------------------------------------------
+Device Number = 0
+Name = Tesla K40s
+Compute mode: 0
+maxThreadsPerBlock = 1024
+warpSize = 32
+maxGridSize.x = 2147483647
+maxGridSize.y = 65535
+maxThreadsDim.x = 1024
+totalGlobalMem = 11996954624 bytes
+sharedMemPerBlock = 49152 bytes
+Arch = 3.5
+--------------------------------------------------
+Starting calculation, 100 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/12^3x24/mu=0.30/ma=0.001/nfluxes=26/index.txt
+Ending calculation
+End time: 30-11-2019 12:58:45
+--------------------------------------------------
+-                HMC SU3 completed               -
+--------------------------------------------------
