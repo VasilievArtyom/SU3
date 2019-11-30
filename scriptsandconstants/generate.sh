@@ -9,9 +9,9 @@
 
 projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
 
-for Ls in 8 10 12
+for Ls in 24
 do
-for Lt in 8 10 12
+for Lt in 12
 do
 for ma in 0.01
 do
