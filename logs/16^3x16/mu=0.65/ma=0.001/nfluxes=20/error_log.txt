@@ -1,4 +1,0 @@
-[25-11-2019 15:40:40] (src/main.cpp:26) CUDA assert failed: unknown error
-. Program terminated.
-
-Program terminated.

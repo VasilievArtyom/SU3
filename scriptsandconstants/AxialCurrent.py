@@ -18,9 +18,9 @@ Ls, Lt, mu, ma, nfluxes, AxialCurrent, AxialCurrentErr = np.loadtxt(path.join(in
 #just to easily iterate over arrays
 Ls_num = 3
 Lt_num = 3
-ma_num = 3
+ma_num = 1
 mu_num = 8
-nfluxes_num = 33
+nfluxes_num = 51
 
 err_norm = 1.0#0.08164965809
 
