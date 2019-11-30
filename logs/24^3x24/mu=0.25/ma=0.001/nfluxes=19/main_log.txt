@@ -1,7 +1,7 @@
 --------------------------------------------------
 -                HMC SU3 started                 -
 --------------------------------------------------
-Start time: 26-11-2019 02:34:27
+Start time: 01-12-2019 00:56:38
 Command line: 
 
 /home/vasilievav15_2089/_scratch/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasilievav15_2089/_scratch/compute/SU3/logs/24^3x24/mu=0.25/ma=0.001/nfluxes=19 -O/home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x24/mu=0.25/ma=0.001/nfluxes=19 -D/home/vasilievav15_2089/_scratch/compute/SU3/output/24^3x24/mu=0.25/ma=0.001/nfluxes=19 -Nconf_gen -C/home/vasilievav15_2089/_scratch/compute/SU3/scriptsandconstants/24^3x24/mu=0.25/ma=0.001/nfluxes=19/constants.txt -Ao 
@@ -17,7 +17,7 @@ Pack number:                     0
 -                CUDA Parameters                 -
 --------------------------------------------------
 Device Number = 0
-Name = Tesla K40st
+Name = Tesla K40s
 Compute mode: 0
 maxThreadsPerBlock = 1024
 warpSize = 32
@@ -28,9 +28,4 @@ totalGlobalMem = 11996954624 bytes
 sharedMemPerBlock = 49152 bytes
 Arch = 3.5
 --------------------------------------------------
-Starting calculation, 25 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x24/mu=0.25/ma=0.001/nfluxes=19/index.txt
-Ending calculation
-End time: 26-11-2019 08:20:41
---------------------------------------------------
--                HMC SU3 completed               -
---------------------------------------------------
+Starting calculation, 100 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x24/mu=0.25/ma=0.001/nfluxes=19/index.txt

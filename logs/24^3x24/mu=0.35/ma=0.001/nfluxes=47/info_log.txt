@@ -1,18 +1,2 @@
-#Starting calculation, 25 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x24/mu=0.35/ma=0.001/nfluxes=47/index.txt
-#N_stochastic_estimator = 32
-0	-0.004376321700953
-1	0.043846795488979
-2	0.020849515947226
-3	-0.032807004177886
-4	-0.006277079129098
-5	0.045435521207420
-6	0.017935004166730
-7	0.033796485821206
-8	0.056839199931513
-9	-0.016630188985791
-10	0.038898133002532
-11	0.027466036169854
-12	0.017354727754672
-13	0.012031252338952
-14	0.020755538704578
-15	0.000657387530823
+#Starting calculation, 100 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x24/mu=0.35/ma=0.001/nfluxes=47/index.txt
+#N_stochastic_estimator = 42

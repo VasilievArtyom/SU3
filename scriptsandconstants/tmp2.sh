@@ -1,5 +1,11 @@
 #!/bin/bash
 
+for task in {0..2343}
+do
+ echo   "srun -n1 --exclusive 123/task${task}.sh &"
+done
+
+
 for Ls in 8 
 do
 for Lt in 8 
