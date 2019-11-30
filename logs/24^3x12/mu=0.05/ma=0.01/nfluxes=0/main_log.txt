@@ -37,3 +37,4 @@ Starting metropolis, nc = 1
 Metropolis was updated
 Starting metropolis, nc = 2
 Metropolis was updated
+Starting metropolis, nc = 3
