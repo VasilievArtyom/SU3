@@ -34,3 +34,4 @@ configuration saving during the thermalisation is disabled
 Starting metropolis, nc = 0
 Metropolis was updated
 Starting metropolis, nc = 1
+Metropolis was updated

@@ -1,0 +1,31 @@
+--------------------------------------------------
+-                HMC SU3 started                 -
+--------------------------------------------------
+Start time: 30-11-2019 12:07:03
+Command line: 
+
+/home/vasilievav15_2089/_scratch/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasilievav15_2089/_scratch/compute/SU3/logs/16^3x12/mu=0.10/ma=0.001/nfluxes=18 -O/home/vasilievav15_2089/_scratch/compute/SU3/configurations/16^3x12/mu=0.10/ma=0.001/nfluxes=18 -D/home/vasilievav15_2089/_scratch/compute/SU3/output/16^3x12/mu=0.10/ma=0.001/nfluxes=18 -Nconf_gen -C/home/vasilievav15_2089/_scratch/compute/SU3/scriptsandconstants/16^3x12/mu=0.10/ma=0.001/nfluxes=18/constants.txt -Ao 
+
+Command line parameters:
+Directory with configurations:   /home/vasilievav15_2089/_scratch/compute/SU3/configurations/16^3x12/mu=0.10/ma=0.001/nfluxes=18
+Output directory:                /home/vasilievav15_2089/_scratch/compute/SU3/output/16^3x12/mu=0.10/ma=0.001/nfluxes=18
+Calculator options:              o
+Logs output directory:           /home/vasilievav15_2089/_scratch/compute/SU3/logs/16^3x12/mu=0.10/ma=0.001/nfluxes=18
+Constants file:                  /home/vasilievav15_2089/_scratch/compute/SU3/scriptsandconstants/16^3x12/mu=0.10/ma=0.001/nfluxes=18/constants.txt
+Pack number:                     0
+--------------------------------------------------
+-                CUDA Parameters                 -
+--------------------------------------------------
+Device Number = 0
+Name = Tesla K40st
+Compute mode: 0
+maxThreadsPerBlock = 1024
+warpSize = 32
+maxGridSize.x = 2147483647
+maxGridSize.y = 65535
+maxThreadsDim.x = 1024
+totalGlobalMem = 11996954624 bytes
+sharedMemPerBlock = 49152 bytes
+Arch = 3.5
+--------------------------------------------------
+Starting calculation, 100 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/16^3x12/mu=0.10/ma=0.001/nfluxes=18/index.txt
