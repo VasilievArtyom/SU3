@@ -40,3 +40,4 @@ Metropolis was updated
 Starting metropolis, nc = 3
 Metropolis was updated
 Starting metropolis, nc = 4
+Metropolis was updated
