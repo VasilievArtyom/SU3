@@ -8,7 +8,7 @@ echo "#Ls   Lt  mu  ma  nfluxes AxialCurrent Err" >> AxialCurrent.txt
 
 Ls_num=3
 Lt_num=3
-mu_num=8
+mu_num=16
 ma_num=1
 nfluxes_num=51
 
