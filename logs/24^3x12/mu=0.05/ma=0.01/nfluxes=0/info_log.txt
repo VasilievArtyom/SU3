@@ -1,0 +1,5 @@
+#Nmc	Acc	Leapfrog N	dt	dH		Plaq (\theta^2)	Space plaq	Time plaq	PolyakovLoop		Chiral condensate	Quark density up	Current up
+#Starting thermalisation. N_stochastic_estimator = 32
+#Initial configuration: cold start.
+							1.0000000000	1.0000000000	1.0000000000	1.000000000000000	0.009233946120298	-0.000493361366702	-0.000023168383077
+0	ACC	2	0.0e+00	0.000000000000000	1.0000000000	1.0000000000	1.0000000000	1.000000000000000	0.009234112826312	-0.000270853409940	0.000017227301931

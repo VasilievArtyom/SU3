@@ -166,3 +166,6 @@ Program terminated.
 [27-11-2019 20:12:06] (config/config.cpp:205) Can't open file "/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/12^3x10/mu=0.05/ma=0.01/nfluxes=0/constants.txt". Program terminated.
 
 Program terminated.
+[30-11-2019 15:52:48] (config/config.cpp:205) Can't open file "/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/24^3x12/mu=0.05/ma=0.01/nfluxes=0/constants.txt". Program terminated.
+
+Program terminated.
