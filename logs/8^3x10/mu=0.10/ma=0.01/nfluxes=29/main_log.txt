@@ -1,0 +1,36 @@
+--------------------------------------------------
+-                HMC SU3 started                 -
+--------------------------------------------------
+Start time: 30-11-2019 07:10:14
+Command line: 
+
+/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x10/mu=0.10/ma=0.01/nfluxes=29 -O/home/vasiliev_artyom/_scratch/compute/SU3/configurations/8^3x10/mu=0.10/ma=0.01/nfluxes=29 -D/home/vasiliev_artyom/_scratch/compute/SU3/output/8^3x10/mu=0.10/ma=0.01/nfluxes=29 -Nconf_gen -C/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/8^3x10/mu=0.10/ma=0.01/nfluxes=29/constants.txt -Ao 
+
+Command line parameters:
+Directory with configurations:   /home/vasiliev_artyom/_scratch/compute/SU3/configurations/8^3x10/mu=0.10/ma=0.01/nfluxes=29
+Output directory:                /home/vasiliev_artyom/_scratch/compute/SU3/output/8^3x10/mu=0.10/ma=0.01/nfluxes=29
+Calculator options:              o
+Logs output directory:           /home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x10/mu=0.10/ma=0.01/nfluxes=29
+Constants file:                  /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/8^3x10/mu=0.10/ma=0.01/nfluxes=29/constants.txt
+Pack number:                     0
+--------------------------------------------------
+-                CUDA Parameters                 -
+--------------------------------------------------
+Device Number = 0
+Name = GeForce GTX 770
+Compute mode: 0
+maxThreadsPerBlock = 1024
+warpSize = 32
+maxGridSize.x = 2147483647
+maxGridSize.y = 65535
+maxThreadsDim.x = 1024
+totalGlobalMem = 4224909312 bytes
+sharedMemPerBlock = 49152 bytes
+Arch = 3.0
+--------------------------------------------------
+Starting calculation, 50 configurations, 0 offset, index file: /home/vasiliev_artyom/_scratch/compute/SU3/configurations/8^3x10/mu=0.10/ma=0.01/nfluxes=29/index.txt
+Ending calculation
+End time: 30-11-2019 07:12:00
+--------------------------------------------------
+-                HMC SU3 completed               -
+--------------------------------------------------
