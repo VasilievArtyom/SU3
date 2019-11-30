@@ -49,3 +49,6 @@ Starting metropolis, nc = 7
 Metropolis was updated
 Starting metropolis, nc = 8
 Metropolis was updated
+Starting metropolis, nc = 9
+Metropolis was updated
+Starting generation
