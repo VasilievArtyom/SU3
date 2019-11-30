@@ -1,5 +1,5 @@
 #Ls   Lt  mu  ma  nfluxes AxialCurrent Err
-24 16 0.75 0.001 0 nan nan
+24 16 0.75 0.001 0 0.000009415818804 0.006213162191437
 24 16 0.75 0.001 1 nan nan
 24 16 0.75 0.001 2 nan nan
 24 16 0.75 0.001 3 nan nan
