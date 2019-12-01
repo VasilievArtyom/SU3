@@ -29,3 +29,8 @@ sharedMemPerBlock = 49152 bytes
 Arch = 3.5
 --------------------------------------------------
 Starting calculation, 100 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x16/mu=0.25/ma=0.001/nfluxes=16/index.txt
+Ending calculation
+End time: 01-12-2019 12:29:55
+--------------------------------------------------
+-                HMC SU3 completed               -
+--------------------------------------------------
