@@ -50,6 +50,12 @@ for _ma in range(0, ma_num):
 		ax.plot(fx, fy, fz, label=(r'$\mu = $' + str(mu[start])), ls='--', marker='.',color=colors[_mu])
 		#ax.errorbar(nfluxes[start:stop:step]*2, AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step], 
 		#	fmt='o', label=(r'$\mu = $' + str(mu[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_mu], color=colors[_mu])
+
+		#plot errorbars
+		for i in np.arange(0, len(fx)):
+    		ax.plot([fx[i]+xerror[i], fx[i]-xerror[i]], [fy[i], fy[i]], [fz[i], fz[i]], marker="_")
+    		ax.plot([fx[i], fx[i]], [fy[i]+yerror[i], fy[i]-yerror[i]], [fz[i], fz[i]], marker="_")
+    		ax.plot([fx[i], fx[i]], [fy[i], fy[i]], [fz[i]+zerror[i], fz[i]-zerror[i]], marker="_")
 		
 	printindex = _Ls * (Lt_num * mu_num * ma_num * nfluxes_num) + \
 				_Lt * (mu_num * ma_num * nfluxes_num) + \
@@ -66,7 +72,7 @@ for _ma in range(0, ma_num):
 	# Put a legend to the right of the current axis
 	ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 	plt.draw()
-	fig.savefig(path.join(outpath, "AxCurr_{0}.png".format('ma' + str(ma[printindex]) + 'Ls' + str(Ls[printindex]) + 'Lt' + str(Lt[printindex]))))
+	fig.savefig(path.join(outpath, "AxCurr_{0}3d.png".format('ma' + str(ma[printindex]) + 'Ls' + str(Ls[printindex]) + 'Lt' + str(Lt[printindex]))))
 	
 	plt.show()
 	fig.clf();

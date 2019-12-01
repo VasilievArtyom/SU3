@@ -60,12 +60,14 @@ done
 echo "#Ls   Lt  mu  ma  nfluxes AxialCurrent Err" >> ${currentlatticeprintfile}
 
 cp currentLatticeAxialCurrent.py ${currentlatticepath}/plot.py
+cp currentLatticeAxialCurrent3d.py ${currentlatticepath}/plot3d.py
 cd ${currentlatticepath}
 tac AxialCurrent.txt | awk '{if ($6=="") {$6="nan"; $7="nan"}; print}' | tac >> _AxialCurrent.txt
 cp _AxialCurrent.txt AxialCurrent.txt
 rm _AxialCurrent.txt
 python3 plot.py ${ma_num} ${mu_num} ${nfluxes_num}
 rm plot.py
+rm plot3d.py
 cd -
 
 
