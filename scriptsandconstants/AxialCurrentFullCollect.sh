@@ -68,7 +68,7 @@ rm _AxialCurrent.txt
 python3 plot.py ${ma_num} ${mu_num} ${nfluxes_num}
 python3 plot3d.py ${ma_num} ${mu_num} ${nfluxes_num}
 rm plot.py
-rm plot3d.py
+chmod +x plot3d.py
 cd -
 
 

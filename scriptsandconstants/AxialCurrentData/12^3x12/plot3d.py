@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import math
 import numpy as np
 from numpy import *
@@ -64,10 +65,11 @@ for _ma in range(0, ma_num):
 	plt.xlabel(r'$n_{fluxes}$')
 	ax.xaxis.grid(b=True, which='both')
 	ax.yaxis.grid(b=True, which='both')
-	plt.title(r'$\left\langle  J^5_z  \right\rangle$ for' + r'$m_q$ = ' + str(ma[printindex]) + r' $Ls$ = ' + str(Ls[printindex]) + r' $Lt$ = ' + str(Lt[printindex]))
+	plt.title(r'$\left\langle  J^5_z  \right\rangle$ for ' + r'$m_q$ = ' + str(ma[printindex]) + r' $Ls$ = ' + str(Ls[printindex]) + r' $Lt$ = ' + str(Lt[printindex]))
 	box = ax.get_position()
 	ax.set_position([box.x0, box.y0, box.width * 0.9, box.height])
-	ax.view_init(30, 270)
+	ax.view_init(20, 150)
+	ax.set_zlim(-2.0, 2.0)
 	# Put a legend to the right of the current axis
 	ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 	plt.draw()
