@@ -27,6 +27,6 @@
 24	0.247134226398566
 #Mean values:
 #	Axial curent on Z-axis direction
--0.007765220955948918 0.05496117499677835
+nan nan
 
 #Ending calculation

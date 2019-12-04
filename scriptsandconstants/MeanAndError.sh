@@ -1,14 +1,14 @@
 #!/bin/bash
 
-for Ls in 8
+for Ls in 12 16 24
 do
-for Lt in 8
+for Lt in 12 16 24
 do
-for mu in 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70
+for mu in 0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75
 do
 for ma in 0.001
 do
-for nfluxes in {0..32}
+for nfluxes in {0..50}
 do
 logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
 

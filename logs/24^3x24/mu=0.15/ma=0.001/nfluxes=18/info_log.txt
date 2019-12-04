@@ -76,3 +76,6 @@
 #	Axial curent on Z-axis direction
 0.6389433234236311 0.023456345004118043
 
+#	Axial curent on Z-axis direction
+0.6389433234236311 0.023456345004118043
+

@@ -2,3 +2,9 @@
 #N_stochastic_estimator = 42
 0	-0.161892180474381
 1	-0.186303002922670
+#	Axial curent on Z-axis direction
+-0.1740975916985255 0.012205411224144494
+
+#	Axial curent on Z-axis direction
+-0.1740975916985255 0.012205411224144494
+
