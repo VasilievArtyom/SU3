@@ -19,7 +19,7 @@ Ls, Lt, mu, ma, nfluxes, AxialCurrent, AxialCurrentErr = np.loadtxt(path.join(in
 Ls_num = 1
 Lt_num = 1
 ma_num = 3
-mu_num = 8
+mu_num = 7
 nfluxes_num = 33
 
 err_norm = 1.0#0.08164965809
@@ -77,7 +77,7 @@ for _Ls in range(0, Ls_num):
 						_ma * nfluxes_num
 				stop = start + nfluxes_num
 				step = 1
-				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
+				ax.errorbar(nfluxes[start:stop:step]*2, AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
 					fmt='o', label=(r'$m_q = $' + str(ma[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_ma], color=colors[_ma])
 			printindex = _Ls * (Lt_num * mu_num * ma_num * nfluxes_num) + \
 						_Lt * (mu_num * ma_num * nfluxes_num) + \
@@ -107,7 +107,7 @@ for _Ls in range(0, Ls_num):
 						_ma * nfluxes_num
 				stop = start + nfluxes_num
 				step = 1
-				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
+				ax.errorbar(nfluxes[start:stop:step]*2, AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
 					fmt='o', label=(r'$N_t = $' + str(Lt[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_Lt], color=colors[_Lt])
 			printindex = _Ls * (Lt_num * mu_num * ma_num * nfluxes_num) + \
 						0 * (mu_num * ma_num * nfluxes_num) + \
@@ -137,7 +137,7 @@ for _ma in range(0, ma_num):
 						_ma * nfluxes_num
 				stop = start + nfluxes_num
 				step = 1
-				ax.errorbar(nfluxes[start:stop:step], AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
+				ax.errorbar(nfluxes[start:stop:step]*2, AxialCurrent[start:stop:step], yerr=AxialCurrentErr[start:stop:step]*err_norm, 
 					fmt='o', label=(r'$N_s = $' + str(Ls[start])), ls='--', marker='o', capsize=5, capthick=1, ecolor=colors[_Ls], color=colors[_Ls])
 			printindex = 0 * (Lt_num * mu_num * ma_num * nfluxes_num) + \
 						_Lt * (mu_num * ma_num * nfluxes_num) + \
