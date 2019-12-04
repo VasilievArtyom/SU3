@@ -6,7 +6,7 @@ for Lt in 8
 do
 for mu in 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70
 do
-for ma in 0.01 0.0001
+for ma in 0.001
 do
 for nfluxes in {0..32}
 do

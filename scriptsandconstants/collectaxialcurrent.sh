@@ -5,15 +5,15 @@ projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
 rm AxialCurrent.txt
 echo "#Ls   Lt  mu  ma  nfluxes AxialCurrent Err" >> AxialCurrent.txt
 
-for Ls in 12
+for Ls in 8
 do
-for Lt in 24 16 12
+for Lt in 8
 do
-for mu in 0.00 0.30 0.60
+for mu in 0.00 0.01 0.20 0.30 0.40 0.50 0.60 0.70
 do
-for ma in 0.001
+for ma in 0.001 0.01 0.0001
 do
-for nfluxes in 0 10 20 30 40 50
+for nfluxes in {0..32}
 do
 logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
 
