@@ -28,25 +28,25 @@
 24 12 0.35 0.001 26 0.4386799920502895 0.014054720046512509
 24 12 0.35 0.001 27 0.4451308921501115 0.025700241158533504
 24 12 0.35 0.001 28 0.45709368383682003 0.03235651076142501
-24 12 0.35 0.001 29 #	Axial curent on Z-axis direction
+24 12 0.35 0.001 29 nan nan
 24 12 0.35 0.001 30 nan nan
-24 12 0.35 0.001 31 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 32 0.3618413957545395 0.018574036333824484
-24 12 0.35 0.001 33 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 34 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 35 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 36 0.33639014687135266 0.01149717009510291
-24 12 0.35 0.001 37 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 38 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 39 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 40 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 41 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 42 0.35508488964624096 0.027162907088321
-24 12 0.35 0.001 43 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 44 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 45 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 46 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 47 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 48 0.2659330459310935 0.011710980970280505
-24 12 0.35 0.001 49 #	Axial curent on Z-axis direction
-24 12 0.35 0.001 50 #	Axial curent on Z-axis direction
+24 12 0.35 0.001 31 nan nan
+24 12 0.35 0.001 32 nan nan
+24 12 0.35 0.001 33 nan nan
+24 12 0.35 0.001 34 nan nan
+24 12 0.35 0.001 35 nan nan
+24 12 0.35 0.001 36 nan nan
+24 12 0.35 0.001 37 nan nan
+24 12 0.35 0.001 38 nan nan
+24 12 0.35 0.001 39 nan nan
+24 12 0.35 0.001 40 nan nan
+24 12 0.35 0.001 41 nan nan
+24 12 0.35 0.001 42 nan nan
+24 12 0.35 0.001 43 nan nan
+24 12 0.35 0.001 44 nan nan
+24 12 0.35 0.001 45 nan nan
+24 12 0.35 0.001 46 nan nan
+24 12 0.35 0.001 47 nan nan
+24 12 0.35 0.001 48 nan nan
+24 12 0.35 0.001 49 nan nan
+24 12 0.35 0.001 50 nan nan
