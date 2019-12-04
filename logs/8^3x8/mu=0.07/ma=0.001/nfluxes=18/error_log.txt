@@ -1,0 +1,4 @@
+[04-12-2019 15:05:11] (src/main.cpp:26) CUDA assert failed: OS call failed or operation not supported on this OS
+. Program terminated.
+
+Program terminated.

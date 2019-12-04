@@ -1,2 +1,7 @@
 #Starting calculation, 100 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x12/mu=0.00/ma=0.001/nfluxes=24/index.txt
 #N_stochastic_estimator = 42
+0	0.003121073960333
+1	-0.000654670132415
+2	-0.008094292929292
+3	0.003529715507378
+4	0.006482165933458

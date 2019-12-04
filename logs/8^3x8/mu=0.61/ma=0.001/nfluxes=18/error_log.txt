@@ -1,0 +1,4 @@
+[01-12-2019 01:21:15] (src/main.cpp:26) CUDA assert failed: no CUDA-capable device is detected
+. Program terminated.
+
+Program terminated.
