@@ -1,0 +1,3 @@
+[06-12-2019 15:49:37] (formats/formats.cpp:57) Assert failed. Program terminated.
+
+Program terminated.
