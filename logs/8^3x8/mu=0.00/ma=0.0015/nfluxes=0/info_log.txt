@@ -1,3 +1,38 @@
 #Rand seed set to 1555
 #Starting calculation, 10 configurations, 0 offset, index file: /home/vasiliev_artyom/_scratch/compute/SU3/configurations/8^3x8/mu=0.00/ma=0.0015/nfluxes=0/index.txt
 #N_stochastic_estimator = 10
+0	0.017296625487495
+1	0.089361916626802
+2	-0.034496440887711
+3	-0.166608536690772
+4	0.027005215827880
+5	-0.036130706578093
+6	-0.206823744779199
+7	-0.017901772468759
+8	0.077941315586911
+9	-0.043672675116326
+#Mean values:
+#	Axial curent on Z-axis direction
+-0.029402880299177 0.030129578740785
+
+#Ending calculation
+#Rand seed set to 1555
+#Perform local gauge transformation and recalculate axial current
+#Starting calculation, 10 configurations, 0 offset, index file: /home/vasiliev_artyom/_scratch/compute/SU3/configurations/8^3x8/mu=0.00/ma=0.0015/nfluxes=0/index.txt
+#N_stochastic_estimator = 10
+0	0.017296625487495
+1	0.089361916626801
+2	-0.034496440887711
+3	-0.166608536690772
+4	0.027005215827880
+5	-0.036130706578093
+6	-0.206823744779199
+7	-0.017901772468759
+8	0.077941315586910
+9	-0.043672675116326
+#Mean values of Axial curent:
+#Mean values:
+#	Axial curent on Z-axis direction
+-0.029402880299177 0.030129578740785
+
+#Ending calculation
