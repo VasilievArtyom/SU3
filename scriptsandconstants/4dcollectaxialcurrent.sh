@@ -9,11 +9,11 @@ for Ls in 8
 do
 for Lt in 8
 do
-for mu in 0.025 0.05 0.1 0.2 0.3
+for mu in 0.00
 do
-for ma in 0.01 0.001 0.0005
+for ma in 0.0015
 do
-for nfluxes in {0..7}
+for nfluxes in {0..32}
 do
 logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
 
