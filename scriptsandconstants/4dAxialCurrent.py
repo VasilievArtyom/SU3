@@ -18,9 +18,9 @@ Ls, Lt, mu, ma, nfluxes, AC_t, AC_t_err, AC_x, AC_x_err, AC_y, AC_y_err, AC_z, A
 #just to easily iterate over arrays
 Ls_num = 1
 Lt_num = 1
-ma_num = 3
-mu_num = 5
-nfluxes_num = 8
+ma_num = 1
+mu_num = 1
+nfluxes_num = 33
 
 outpath = "4dAxialCurrent"
 
