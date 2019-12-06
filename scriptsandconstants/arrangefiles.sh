@@ -4,15 +4,15 @@
 projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
 
 
-for Ls in 24 
+for Ls in 8 
 do
-for Lt in 12
+for Lt in 8
 do
-for ma in 0.01
+for ma in 0.0015
 do
-for mu in 0.05 
+for mu in 0.00 0.10
 do
-for nfluxes in 0
+for nfluxes in {0..32}
 do
 logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
 confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
@@ -87,7 +87,7 @@ echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvSqrRoot.txt' >> consta
 echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/FourthRoot.txt' >> constants.txt
 echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvSqrRoot_fine.txt' >> constants.txt
 echo 'N_stoch_estimator, number of random vectors for the stochastic estimator. It should be even.' >> constants.txt
-echo '32' >> constants.txt
+echo '10' >> constants.txt
 echo 'n_print_obs, only for (n_print_obs)th configuration observables will be calculated during generation' >> constants.txt
 echo '1' >> constants.txt
 echo 'n_fermions, n-root trick (useful only for n_rooting > 1)' >> constants.txt

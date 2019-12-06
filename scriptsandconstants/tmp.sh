@@ -1,12 +1,12 @@
 #!/bin/bash
 
-for Ls in 8 10 12
+for Ls in 8
 do
-for Lt in 8 10 12
+for Lt in 8
 do
-for ma in 0.01 0.0001
+for ma in 0.0015
 do
-for mu in 0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70
+for mu in 0.00 0.10
 do
 for nfluxes in {0..32}
 do
@@ -18,8 +18,8 @@ cd ${confpath}
 thispath=$(pwd)
 
 rm index.txt
-echo "50" >> index.txt
-for N in {1..50}
+echo "10" >> index.txt
+for N in {1..10}
 do
     echo "${printpath}/conf_gen0001.conf" >> index.txt
 done
