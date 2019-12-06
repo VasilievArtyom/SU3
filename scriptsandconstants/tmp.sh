@@ -11,7 +11,7 @@ do
 for nfluxes in {0..32}
 do
 confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
-printpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=0.00/ma=0.001/nfluxes=0
+printpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=0.00/ma=0.0015/nfluxes=0
 
 cd ${confpath}
 
