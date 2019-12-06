@@ -18,8 +18,8 @@ cd ${confpath}
 thispath=$(pwd)
 
 rm index.txt
-echo "10" >> index.txt
-for N in {1..10}
+echo "30" >> index.txt
+for N in {1..30}
 do
     echo "${printpath}/conf_gen0001.conf" >> index.txt
 done

@@ -87,7 +87,7 @@ echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvSqrRoot.txt' >> consta
 echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/FourthRoot.txt' >> constants.txt
 echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvSqrRoot_fine.txt' >> constants.txt
 echo 'N_stoch_estimator, number of random vectors for the stochastic estimator. It should be even.' >> constants.txt
-echo '10' >> constants.txt
+echo '6' >> constants.txt
 echo 'n_print_obs, only for (n_print_obs)th configuration observables will be calculated during generation' >> constants.txt
 echo '1' >> constants.txt
 echo 'n_fermions, n-root trick (useful only for n_rooting > 1)' >> constants.txt

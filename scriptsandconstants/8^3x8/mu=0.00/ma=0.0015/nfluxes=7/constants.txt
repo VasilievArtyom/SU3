@@ -59,7 +59,7 @@ n_rooting, power of the root from fermionic determinant, below it should stand 3
 /home/vasiliev_artyom/proj/SU3_stag/approx_files/FourthRoot.txt
 /home/vasiliev_artyom/proj/SU3_stag/approx_files/InvSqrRoot_fine.txt
 N_stoch_estimator, number of random vectors for the stochastic estimator. It should be even.
-10
+6
 n_print_obs, only for (n_print_obs)th configuration observables will be calculated during generation
 1
 n_fermions, n-root trick (useful only for n_rooting > 1)
