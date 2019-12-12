@@ -71,3 +71,5 @@ Thu Dec 12 18:28:12 MSK 2019
 Thu Dec 12 18:29:01 MSK 2019
 /home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.10/ma=0.0015/nfluxes=2
 Thu Dec 12 18:29:47 MSK 2019
+/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.10/ma=0.0015/nfluxes=3
+Thu Dec 12 18:30:40 MSK 2019
