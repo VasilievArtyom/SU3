@@ -1,3 +1,5 @@
 Start calculation at Fri Dec 13 15:46:39 MSK 2019
 /home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=0
 Fri Dec 13 15:46:40 MSK 2019
+/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=1
+Fri Dec 13 15:47:11 MSK 2019
