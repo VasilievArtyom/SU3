@@ -1,4 +1,4 @@
-[13-12-2019 15:34:02] (src/gauge_field.cu:235) CUDA assert failed: an illegal memory access was encountered
+[20-12-2019 15:43:04] (src/lattice.cpp:40) CUDA assert failed: invalid argument
 . Program terminated.
 
 Program terminated.
