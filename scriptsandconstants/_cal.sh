@@ -6,14 +6,14 @@ rm calclog.txt
 echo "Start calculation at $(date)" >> calclog.txt
 
 max_nfluxes=0
-for Ls in 8
+for Ls in 12 16 24
 do
 let max_nfluxes=${Ls}*${Ls}/2
-for Lt in 8
+for Lt in 12 16 24
 do
-for ma in 0.0015
+for ma in 0.001
 do
-for mu in 0.00 #0.10
+for mu in 0.00 0.05 0.10 0.15 0.20
 do
 for ((nfluxes=0; nfluxes<=max_nfluxes; nfluxes++))
 do
