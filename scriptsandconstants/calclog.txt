@@ -2,3 +2,5 @@ Start calculation at Fri Dec 20 16:22:49 MSK 2019
 Calculation finished at Fri Dec 20 16:22:49 MSK 2019
 /home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=31
 Fri Dec 20 16:22:50 MSK 2019
+/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=32
+Fri Dec 20 16:23:29 MSK 2019
