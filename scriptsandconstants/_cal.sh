@@ -5,8 +5,10 @@ projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
 rm calclog.txt
 echo "Start calculation at $(date)" >> calclog.txt
 
+max_nfluxes=0
 for Ls in 8
 do
+let max_nfluxes=${Ls}*${Ls}/2
 for Lt in 8
 do
 for ma in 0.0015
