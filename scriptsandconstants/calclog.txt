@@ -1,55 +1,6 @@
-Start calculation at Fri Dec 20 15:56:35 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=0
-Fri Dec 20 15:57:09 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=1
-Fri Dec 20 15:57:55 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=2
-Fri Dec 20 15:58:40 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=3
-Fri Dec 20 15:59:28 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=4
-Fri Dec 20 16:00:08 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=5
-Fri Dec 20 16:01:00 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=6
-Fri Dec 20 16:01:47 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=7
-Fri Dec 20 16:02:42 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=8
-Fri Dec 20 16:03:32 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=9
-Fri Dec 20 16:04:31 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=10
-Fri Dec 20 16:05:21 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=11
-Fri Dec 20 16:06:16 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=12
-Fri Dec 20 16:06:57 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=13
-Fri Dec 20 16:07:56 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=14
-Fri Dec 20 16:08:51 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=15
-Fri Dec 20 16:09:46 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=16
-Fri Dec 20 16:10:36 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=17
-Fri Dec 20 16:11:33 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=18
-Fri Dec 20 16:12:23 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=19
-Fri Dec 20 16:13:15 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=20
-Fri Dec 20 16:13:56 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=21
-Fri Dec 20 16:14:48 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=22
-Fri Dec 20 16:15:35 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=23
-Fri Dec 20 16:16:28 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=24
-Fri Dec 20 16:17:14 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=25
-Fri Dec 20 16:18:06 MSK 2019
-/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=26
-Fri Dec 20 16:18:54 MSK 2019
+Start calculation at Fri Dec 20 16:19:41 MSK 2019
+/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes={0..32}
+Fri Dec 20 16:19:41 MSK 2019
+Calculation finished at Fri Dec 20 16:19:41 MSK 2019
+/home/vasiliev_artyom/_scratch/compute/SU3/logs/8^3x8/mu=0.00/ma=0.0015/nfluxes=27
+Fri Dec 20 16:19:45 MSK 2019

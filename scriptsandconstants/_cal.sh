@@ -15,7 +15,7 @@ for ma in 0.0015
 do
 for mu in 0.00 #0.10
 do
-for nfluxes in 0  #{0..32}
+for nfluxes in {0..${max_nfluxes}}
 do
 logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
 confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
