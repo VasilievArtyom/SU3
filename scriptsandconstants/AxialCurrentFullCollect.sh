@@ -8,28 +8,28 @@ echo "#Ls   Lt  mu  ma  nfluxes AxialCurrent Err" >> AxialCurrent.txt
 
 Ls_num=1
 Lt_num=1
-mu_num=2
+mu_num=5
 ma_num=1
-nfluxes_num=33
+nfluxes_num=73
 
-for Ls in 8
+for Ls in 12
 do
-for Lt in 8
+for Lt in 12
 do
 
 currentlatticepath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/AxialCurrentData/${Ls}^3x${Lt}
 currentlatticeprintfile=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/AxialCurrentData/${Ls}^3x${Lt}/AxialCurrent.txt
 
-for mu in 0.00 0.10
+for mu in 0.00 0.05 0.10 0.15 0.20
 do
-for ma in 0.0015
+for ma in 0.001
 do
 
 currentprinfile=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/AxialCurrentData/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/AxialCurrent.txt
 currentpath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/AxialCurrentData/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}
 mkdir -p ${currentpath}
 echo "#Ls   Lt  mu  ma  nfluxes AxialCurrent Err" >> ${currentprinfile}
-	for nfluxes in {0..32}
+	for nfluxes in {0..72}
 	do
 	logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
 
