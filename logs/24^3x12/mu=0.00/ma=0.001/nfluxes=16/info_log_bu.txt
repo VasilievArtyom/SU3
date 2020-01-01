@@ -1,9 +1,0 @@
-#Starting calculation, 100 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x12/mu=0.00/ma=0.001/nfluxes=16/index.txt
-#N_stochastic_estimator = 42
-0	-0.019846805313157
-1	-0.019656182553102
-2	-0.017189495412651
-3	-0.016999773718710
-#	Axial curent on Z-axis direction
--0.018423064249405 0.0007689314759946055
-
