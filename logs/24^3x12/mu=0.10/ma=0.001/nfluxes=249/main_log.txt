@@ -1,0 +1,15 @@
+--------------------------------------------------
+-                HMC SU3 started                 -
+--------------------------------------------------
+Start time: 03-01-2020 03:41:57
+Command line: 
+
+/home/vasilievav15_2089/_scratch/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasilievav15_2089/_scratch/compute/SU3/logs/24^3x12/mu=0.10/ma=0.001/nfluxes=249 -O/home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x12/mu=0.10/ma=0.001/nfluxes=249 -D/home/vasilievav15_2089/_scratch/compute/SU3/output/24^3x12/mu=0.10/ma=0.001/nfluxes=249 -Nconf_gen -C/home/vasilievav15_2089/_scratch/compute/SU3/scriptsandconstants/24^3x12/mu=0.10/ma=0.001/nfluxes=249/constants.txt -Ao 
+
+Command line parameters:
+Directory with configurations:   /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x12/mu=0.10/ma=0.001/nfluxes=249
+Output directory:                /home/vasilievav15_2089/_scratch/compute/SU3/output/24^3x12/mu=0.10/ma=0.001/nfluxes=249
+Calculator options:              o
+Logs output directory:           /home/vasilievav15_2089/_scratch/compute/SU3/logs/24^3x12/mu=0.10/ma=0.001/nfluxes=249
+Constants file:                  /home/vasilievav15_2089/_scratch/compute/SU3/scriptsandconstants/24^3x12/mu=0.10/ma=0.001/nfluxes=249/constants.txt
+Pack number:                     0

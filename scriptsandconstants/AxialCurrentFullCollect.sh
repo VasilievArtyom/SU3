@@ -6,15 +6,15 @@ rm -rf AxialCurrentData/
 
 echo "#Ls   Lt  mu  ma  nfluxes AxialCurrent Err" >> AxialCurrent.txt
 
-Ls_num=1
-Lt_num=1
+Ls_num=3
+Lt_num=3
 mu_num=5
 ma_num=1
-nfluxes_num=73
+nfluxes_num=289
 
-for Ls in 12
+for Ls in 12 16 24
 do
-for Lt in 12
+for Lt in 12 16 24
 do
 
 currentlatticepath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/AxialCurrentData/${Ls}^3x${Lt}
@@ -29,7 +29,7 @@ currentprinfile=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/A
 currentpath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/AxialCurrentData/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}
 mkdir -p ${currentpath}
 echo "#Ls   Lt  mu  ma  nfluxes AxialCurrent Err" >> ${currentprinfile}
-	for nfluxes in {0..72}
+	for nfluxes in {0..288}
 	do
 	logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
 
