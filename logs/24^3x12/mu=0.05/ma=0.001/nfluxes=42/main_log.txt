@@ -1,7 +1,7 @@
 --------------------------------------------------
 -                HMC SU3 started                 -
 --------------------------------------------------
-Start time: 02-01-2020 11:39:20
+Start time: 15-02-2020 04:13:35
 Command line: 
 
 /home/vasilievav15_2089/_scratch/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasilievav15_2089/_scratch/compute/SU3/logs/24^3x12/mu=0.05/ma=0.001/nfluxes=42 -O/home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x12/mu=0.05/ma=0.001/nfluxes=42 -D/home/vasilievav15_2089/_scratch/compute/SU3/output/24^3x12/mu=0.05/ma=0.001/nfluxes=42 -Nconf_gen -C/home/vasilievav15_2089/_scratch/compute/SU3/scriptsandconstants/24^3x12/mu=0.05/ma=0.001/nfluxes=42/constants.txt -Ao 
@@ -30,7 +30,7 @@ Arch = 3.5
 --------------------------------------------------
 Starting calculation, 40 configurations, 0 offset, index file: /home/vasilievav15_2089/_scratch/compute/SU3/configurations/24^3x12/mu=0.05/ma=0.001/nfluxes=42/index.txt
 Ending calculation
-End time: 02-01-2020 12:49:41
+End time: 15-02-2020 09:25:39
 --------------------------------------------------
 -                HMC SU3 completed               -
 --------------------------------------------------
