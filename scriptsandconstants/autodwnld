@@ -1,0 +1,9 @@
+#!/bin/expect -f
+
+spawn bash dwnld_script.sh
+while 1 { expect {
+"vasiliev@rrcmpi-a.itep.ru's password:" { send "VJZfNwYz\r"; exp_continue }
+"vasilievav15_2089@access2 _scratch" {exp_break}
+}}
+exit 0
+
