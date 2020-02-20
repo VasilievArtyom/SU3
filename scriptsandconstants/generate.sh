@@ -11,11 +11,11 @@ projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
 
 for Ls in 24
 do
-for Lt in 12
+for Lt in 6
 do
 for ma in 0.01
 do
-for mu in 0.05
+for mu in 0.00
 do
 for nfluxes in 0
 do

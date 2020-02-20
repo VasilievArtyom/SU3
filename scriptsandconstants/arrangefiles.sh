@@ -4,15 +4,15 @@
 projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
 
 
-for Ls in 8 
+for Ls in 24 
 do
-for Lt in 8
+for Lt in 6
 do
-for ma in 0.0015
+for ma in 0.01
 do
-for mu in 0.00 0.10
+for mu in 0.00 
 do
-for nfluxes in {0..32}
+for nfluxes in 0
 do
 logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
 confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
