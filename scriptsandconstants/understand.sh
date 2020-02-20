@@ -565,7 +565,7 @@ do
     rm calcsctipts/task${j}.sh
     echo "#!/bin/bash" >> calcsctipts/task${j}.sh
     chmod +x calcsctipts/task${j}.sh
-    echo "nohup .${projpath} -G0 -L${logspath} -O${confpath} -D${outppath} -Nconf_gen -C${conspath}/constants.txt -A${calc_mode}" >> calcsctipts/task${j}.sh
+    echo "nohup ${projpath} -G0 -L${logspath} -O${confpath} -D${outppath} -Nconf_gen -C${conspath}/constants.txt -A${calc_mode}" >> calcsctipts/task${j}.sh
     echo "echo $${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes} >> calclog.txt" >> calcsctipts/task${j}.sh
     echo ". /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/BU.sh" >> calcsctipts/task${j}.sh
     let j++
