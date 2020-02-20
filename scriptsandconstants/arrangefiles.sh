@@ -36,12 +36,12 @@ echo 'Ls, spatial lattice size' >> constants.txt
 echo ${Ls} >> constants.txt
 echo 'Lt, temporal latticesize' >> constants.txt
 echo ${Lt} >> constants.txt
+echo 'beta' >> constants.txt
 echo ${beta} >> constants.txt
-echo '5.15' >> constants.txt
 echo 'c_plaq' >> constants.txt
-echo '1.00' >> constants.txt
+echo '1.6666666666666667' >> constants.txt
 echo 'c_rect' >> constants.txt
-echo '0.00' >> constants.txt
+echo '-0.08333333333333333' >> constants.txt
 echo 'rho, parameter of the isotropic stout smearing (2 steps, relevant for the Dirac operator; 0.0 --- no smearing)' >> constants.txt
 echo '0.15' >> constants.txt
 echo 'leapfrog N' >> constants.txt
@@ -69,7 +69,7 @@ echo '1' >> constants.txt
 echo 'm_qa, mass of the light quarks' >> constants.txt
 echo ${mqa} >> constants.txt
 echo 'flag_add_strange_quark, 0 --- without s-quark, 1 --- with s-quark' >> constants.txt
-echo '0' >> constants.txt
+echo '1' >> constants.txt
 echo 'm_sa, mass of the strange quark, below it should stand 3 files with the coefficients of approximations (-1/4, -1/4, 1/8)' >> constants.txt
 echo ${msa} >> constants.txt
 echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvFourthRoot.txt' >> constants.txt

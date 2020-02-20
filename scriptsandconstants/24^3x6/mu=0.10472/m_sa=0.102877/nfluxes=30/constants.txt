@@ -2,12 +2,12 @@ Ls, spatial lattice size
 24
 Lt, temporal latticesize
 6
+beta
 3.54798
-5.15
 c_plaq
-1.00
+1.6666666666666667
 c_rect
-0.00
+-0.08333333333333333
 rho, parameter of the isotropic stout smearing (2 steps, relevant for the Dirac operator; 0.0 --- no smearing)
 0.15
 leapfrog N
@@ -35,7 +35,7 @@ flag_add_fermions, 0 --- without fermions, 1 --- with fermions
 m_qa, mass of the light quarks
 .00365460035523978685
 flag_add_strange_quark, 0 --- without s-quark, 1 --- with s-quark
-0
+1
 m_sa, mass of the strange quark, below it should stand 3 files with the coefficients of approximations (-1/4, -1/4, 1/8)
 0.102877
 /home/vasiliev_artyom/proj/SU3_stag/approx_files/InvFourthRoot.txt
