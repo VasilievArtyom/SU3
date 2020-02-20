@@ -538,15 +538,36 @@ beta_3.7927_m0.04521_muoverpit_0.24_b1/
 beta_3.7927_m0.04521_muoverpit_0.275_b1/
 )
 
-rm conf_list.txt
-echo    "#path    beta      m_s     mu      nflux" >> conf_list.txt
-
+let j=0
 for i in "${arr[@]}"
 do
-    beta=$(sed -n 6p /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/configurations/SU3_pseudocriticalB_true_fjord/log_24_6/${i}constants.txt)
-    m_s=$(sed -n 40p /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/configurations/SU3_pseudocriticalB_true_fjord/log_24_6/${i}constants.txt)
-    mu=$(sed -n 72p /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/configurations/SU3_pseudocriticalB_true_fjord/log_24_6/${i}constants.txt)
-    nflux=$(sed -n 68p /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/configurations/SU3_pseudocriticalB_true_fjord/log_24_6/${i}constants.txt)
-	echo "${i}      ${beta}     ${m_s}      ${mu}       ${nflux}" >> conf_list.txt
+    currentpath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/configurations/SU3_pseudocriticalB_true_fjord/log_24_6/${i}
+    beta=$(sed -n 6p ${currentpath}constants.txt)
+    Ls=24
+    Lt=6
+    mqa=$(sed -n 36p ${currentpath}constants.txt)
+    msa=$(sed -n 40p ${currentpath}constants.txt)
+    mu_string=$(sed -n 72p ${currentpath}constants.txt)
+    mu=$(echo $mu_string | awk '{print $1}')
+    nfluxes=$(sed -n 68p /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/configurations/SU3_pseudocriticalB_true_fjord/log_24_6/${i}constants.txt)
+    #./arrangefiles.sh ${beta} 24 6 ${mqa} ${msa} ${mu} ${nfluxes}
+    logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+    confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+    outppath=/home/vasiliev_artyom/_scratch/compute/SU3/output/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+    conspath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+    #rm ${confpath}/index.txt
+    #echo "50" >> ${confpath}/index.txt
+    #for N in {1..50}
+    #do
+    #  echo "/home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/mu=0.00/ma=0.01/nfluxes=0/conf_gen0001.conf" >> ${confpath}/index.txt
+    #done
+    projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
+    rm calcsctipts/task${j}.sh
+    echo "#!/bin/bash" >> calcsctipts/task${j}.sh
+    chmod +x calcsctipts/task${j}.sh
+    echo ".${projpath} -G0 -L${logspath} -O${confpath} -D${outppath} -Nconf_gen -C${conspath}/constants.txt -A${calc_mode}" >> calcsctipts/task${j}.sh
+    echo "echo $${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes} >> calclog.txt" >> calcsctipts/task${j}.sh
+    echo "./home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/BU.sh" >> calcsctipts/task${j}.sh
+    let j++
 done
 

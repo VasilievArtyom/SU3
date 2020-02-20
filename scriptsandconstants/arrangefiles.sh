@@ -3,21 +3,27 @@
 
 projpath=/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag
 
-
-for Ls in 24 
-do
-for Lt in 6
-do
-for ma in 0.01
-do
-for mu in 0.00 
-do
-for nfluxes in 0
-do
-logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
-confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
-outppath=/home/vasiliev_artyom/_scratch/compute/SU3/output/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
-conspath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/${Ls}^3x${Lt}/mu=${mu}/ma=${ma}/nfluxes=${nfluxes}
+beta=$1
+Ls=$2
+Lt=$3
+mqa=$4
+msa=$5
+mu=$6
+nfluxes=$7
+#for Ls in 24 
+#do
+#for Lt in 6
+#do
+#for ma in 0.01
+#do
+#for mu in 0.00 
+#do
+#for nfluxes in 0
+#do
+logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+outppath=/home/vasiliev_artyom/_scratch/compute/SU3/output/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+conspath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
 mkdir -p ${logspath}
 mkdir -p ${confpath}
 mkdir -p ${outppath}
@@ -30,14 +36,14 @@ echo 'Ls, spatial lattice size' >> constants.txt
 echo ${Ls} >> constants.txt
 echo 'Lt, temporal latticesize' >> constants.txt
 echo ${Lt} >> constants.txt
-echo 'beta' >> constants.txt
+echo ${beta} >> constants.txt
 echo '5.15' >> constants.txt
 echo 'c_plaq' >> constants.txt
 echo '1.00' >> constants.txt
 echo 'c_rect' >> constants.txt
 echo '0.00' >> constants.txt
 echo 'rho, parameter of the isotropic stout smearing (2 steps, relevant for the Dirac operator; 0.0 --- no smearing)' >> constants.txt
-echo '0.0' >> constants.txt
+echo '0.15' >> constants.txt
 echo 'leapfrog N' >> constants.txt
 echo '2' >> constants.txt
 echo 'leapfrog dt' >> constants.txt
@@ -61,11 +67,11 @@ echo '0.85' >> constants.txt
 echo 'flag_add_fermions, 0 --- without fermions, 1 --- with fermions' >> constants.txt
 echo '1' >> constants.txt
 echo 'm_qa, mass of the light quarks' >> constants.txt
-echo ${ma} >> constants.txt
+echo ${mqa} >> constants.txt
 echo 'flag_add_strange_quark, 0 --- without s-quark, 1 --- with s-quark' >> constants.txt
 echo '0' >> constants.txt
 echo 'm_sa, mass of the strange quark, below it should stand 3 files with the coefficients of approximations (-1/4, -1/4, 1/8)' >> constants.txt
-echo '0.40' >> constants.txt
+echo ${msa} >> constants.txt
 echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvFourthRoot.txt' >> constants.txt
 echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/InvFourthRoot_fine.txt' >> constants.txt
 echo '/home/vasiliev_artyom/proj/SU3_stag/approx_files/EighthRoot.txt' >> constants.txt
@@ -97,12 +103,12 @@ echo ${nfluxes} >> constants.txt
 echo 'mu5 (0=const, 1=from file). Next value is either constant or file_name. Only 0 works now' >> constants.txt
 echo '0 0.0' >> constants.txt
 echo 'mu_im_u mu_im_d mu_im_s, imaginary chemical potential for each quark' >> constants.txt
-echo "${mu} ${mu} ${mu}" >> constants.txt
+echo "${mu} ${mu} 0.0" >> constants.txt
 echo 'mu_isospin and lambda, isospin chemical potential for light quarks and isospin breaking source (the macros MUISO in Makefile.var has to be enabled)' >> constants.txt
 echo '0.00 0.00' >> constants.txt
 cd -
-done
-done
-done
-done
-done
+#done
+#done
+#done
+#done
+#done
