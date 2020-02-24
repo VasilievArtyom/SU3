@@ -1,4 +1,4 @@
-[24-02-2020 11:56:58] (src/gauge_field.cu:235) CUDA assert failed: an illegal memory access was encountered
+[24-02-2020 11:57:14] (src/gauge_field.cu:235) CUDA assert failed: an illegal memory access was encountered
 . Program terminated.
 
 Program terminated.
