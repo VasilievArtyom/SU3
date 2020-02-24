@@ -1,4 +1,3 @@
 #Starting calculation, 50 configurations, 0 offset, index file: /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/mu=0.00000/m_sa=0.152226/nfluxes=6/index.txt
 #N_stochastic_estimator = 6
 gauge_field_CopyToDevice -- try
-gauge_field_CopyToDevice -- sucess
