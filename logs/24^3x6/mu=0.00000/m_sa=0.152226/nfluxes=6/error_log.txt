@@ -1,4 +1,4 @@
-[24-02-2020 12:29:35] (src/gauge_field.cu:235) CUDA assert failed: an illegal memory access was encountered
+[24-02-2020 14:15:30] (src/lattice.cpp:20) CUDA assert failed: all CUDA-capable devices are busy or unavailable
 . Program terminated.
 
 Program terminated.
