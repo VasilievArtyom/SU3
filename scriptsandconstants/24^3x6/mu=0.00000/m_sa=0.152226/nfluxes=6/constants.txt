@@ -9,7 +9,7 @@ c_plaq
 c_rect
 -0.08333333333333333
 rho, parameter of the isotropic stout smearing (2 steps, relevant for the Dirac operator; 0.0 --- no smearing)
-0.15
+0.0
 leapfrog N
 2
 leapfrog dt
