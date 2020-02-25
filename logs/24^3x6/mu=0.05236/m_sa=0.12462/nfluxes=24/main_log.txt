@@ -1,0 +1,37 @@
+--------------------------------------------------
+-                HMC SU3 started                 -
+--------------------------------------------------
+Start time: 25-02-2020 13:02:47
+Command line: 
+
+/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasiliev_artyom/_scratch/compute/SU3/logs/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24 -O/home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24 -D/home/vasiliev_artyom/_scratch/compute/SU3/output/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24 -Nconf_gen -C/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24/constants.txt -Ao 
+
+Command line parameters:
+Directory with configurations:   /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24
+Output directory:                /home/vasiliev_artyom/_scratch/compute/SU3/output/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24
+Calculator options:              o
+Logs output directory:           /home/vasiliev_artyom/_scratch/compute/SU3/logs/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24
+Constants file:                  /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24/constants.txt
+Pack number:                     0
+--------------------------------------------------
+-                CUDA Parameters                 -
+--------------------------------------------------
+Device Number = 0
+Name = GeForce GTX 770
+Compute mode: 0
+maxThreadsPerBlock = 1024
+warpSize = 32
+maxGridSize.x = 2147483647
+maxGridSize.y = 65535
+maxThreadsDim.x = 1024
+totalGlobalMem = 4224909312 bytes
+sharedMemPerBlock = 49152 bytes
+Arch = 3.0
+--------------------------------------------------
+Strange quark enabled
+Starting calculation, 20 configurations, 0 offset, index file: /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/mu=0.05236/m_sa=0.12462/nfluxes=24/index.txt
+Ending calculation
+End time: 25-02-2020 13:11:12
+--------------------------------------------------
+-                HMC SU3 completed               -
+--------------------------------------------------
