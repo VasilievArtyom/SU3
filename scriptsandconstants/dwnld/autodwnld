@@ -1,6 +1,6 @@
 #!/bin/expect -f
 set VAR [lindex $argv 0]
-spawn bash dwnld_script.sh $VAR
+spawn bash /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/dwnld/dwnld_script.sh $VAR
 while 1 { expect {
 "vasiliev@rrcmpi-a.itep.ru's password:" { send "VJZfNwYz\r"; exp_continue }
 "vasilievav15_2089@access2 _scratch" {exp_break}
