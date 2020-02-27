@@ -10,6 +10,7 @@ mqa=$4
 msa=$5
 mu=$6
 nfluxes=$7
+pathto=$8
 #for Ls in 24 
 #do
 #for Lt in 6
@@ -20,10 +21,14 @@ nfluxes=$7
 #do
 #for nfluxes in 0
 #do
-logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
-confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
-outppath=/home/vasiliev_artyom/_scratch/compute/SU3/output/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
-conspath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+#logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+#confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+#outppath=/home/vasiliev_artyom/_scratch/compute/SU3/output/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+#conspath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/${Ls}^3x${Lt}/mu=${mu}/m_sa=${msa}/nfluxes=${nfluxes}
+logspath=/home/vasiliev_artyom/_scratch/compute/SU3/logs/${Ls}^3x${Lt}/${pathto}
+confpath=/home/vasiliev_artyom/_scratch/compute/SU3/configurations/${Ls}^3x${Lt}/${pathto}
+outppath=/home/vasiliev_artyom/_scratch/compute/SU3/output/${Ls}^3x${Lt}/${pathto}
+conspath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/${Ls}^3x${Lt}/${pathto}
 mkdir -p ${logspath}
 mkdir -p ${confpath}
 mkdir -p ${outppath}
