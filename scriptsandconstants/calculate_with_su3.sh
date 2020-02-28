@@ -67,7 +67,7 @@ do
     rm calcsctipts/task${j}.sh
     echo "#!/bin/bash" >> calcsctipts/task${j}.sh
     chmod +x calcsctipts/task${j}.sh
-    echo "expect dwnld/autodwnld $i" >> calcsctipts/task${j}.sh
+    echo "expect /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/dwnld/autodwnld $i" >> calcsctipts/task${j}.sh
     echo "rm ${confpath}index.txt" >> calcsctipts/task${j}.sh
     echo "ls -d ${confpath}conf* | wc -l >> ${confpath}/index.txt" >> calcsctipts/task${j}.sh
     echo "ls -d ${confpath}conf* >> ${confpath}/index.txt" >> calcsctipts/task${j}.sh

@@ -1,5 +1,5 @@
 #!/bin/bash
-expect dwnld/autodwnld beta_3.47519_m0.141803_muoverpit_0.17_b83/
+expect /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/dwnld/autodwnld beta_3.47519_m0.141803_muoverpit_0.17_b83/
 rm /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.17_b83/index.txt
 ls -d /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.17_b83/conf* | wc -l >> /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.17_b83//index.txt
 ls -d /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.17_b83/conf* >> /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.17_b83//index.txt

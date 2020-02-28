@@ -1,7 +1,7 @@
 --------------------------------------------------
 -                HMC SU3 started                 -
 --------------------------------------------------
-Start time: 28-02-2020 01:17:48
+Start time: 28-02-2020 01:30:13
 Command line: 
 
 /home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasiliev_artyom/_scratch/compute/SU3/logs/24^3x6/beta_3.45887_m0.152226_muoverpit_0.0_b6/ -O/home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.45887_m0.152226_muoverpit_0.0_b6/ -D/home/vasiliev_artyom/_scratch/compute/SU3/output/24^3x6/beta_3.45887_m0.152226_muoverpit_0.0_b6/ -Nconf -C/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/24^3x6/beta_3.45887_m0.152226_muoverpit_0.0_b6/constants.txt -Ao 
@@ -29,4 +29,9 @@ sharedMemPerBlock = 49152 bytes
 Arch = 3.0
 --------------------------------------------------
 Strange quark enabled
-Starting calculation, 17 configurations, 0 offset, index file: /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.45887_m0.152226_muoverpit_0.0_b6/index.txt
+Starting calculation, 101 configurations, 0 offset, index file: /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.45887_m0.152226_muoverpit_0.0_b6/index.txt
+Ending calculation
+End time: 28-02-2020 23:31:23
+--------------------------------------------------
+-                HMC SU3 completed               -
+--------------------------------------------------
