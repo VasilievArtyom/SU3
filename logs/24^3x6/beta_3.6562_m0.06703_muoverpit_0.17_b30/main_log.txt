@@ -1,0 +1,15 @@
+--------------------------------------------------
+-                HMC SU3 started                 -
+--------------------------------------------------
+Start time: 05-03-2020 23:54:26
+Command line: 
+
+/home/vasiliev_artyom/proj/SU3_stag/bin/SU3_stag -G0 -L/home/vasiliev_artyom/_scratch/compute/SU3/logs/24^3x6/beta_3.6562_m0.06703_muoverpit_0.17_b30/ -O/home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.6562_m0.06703_muoverpit_0.17_b30/ -D/home/vasiliev_artyom/_scratch/compute/SU3/output/24^3x6/beta_3.6562_m0.06703_muoverpit_0.17_b30/ -Nconf -C/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/24^3x6/beta_3.6562_m0.06703_muoverpit_0.17_b30/constants.txt -Ao 
+
+Command line parameters:
+Directory with configurations:   /home/vasiliev_artyom/_scratch/compute/SU3/configurations/24^3x6/beta_3.6562_m0.06703_muoverpit_0.17_b30/
+Output directory:                /home/vasiliev_artyom/_scratch/compute/SU3/output/24^3x6/beta_3.6562_m0.06703_muoverpit_0.17_b30/
+Calculator options:              o
+Logs output directory:           /home/vasiliev_artyom/_scratch/compute/SU3/logs/24^3x6/beta_3.6562_m0.06703_muoverpit_0.17_b30/
+Constants file:                  /home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/24^3x6/beta_3.6562_m0.06703_muoverpit_0.17_b30/constants.txt
+Pack number:                     0
