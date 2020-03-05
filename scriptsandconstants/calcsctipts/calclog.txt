@@ -5,3 +5,4 @@ beta_3.47519_m0.141803_muoverpit_0.275_b83/
 beta_3.6562_m0.06703_muoverpit_0.0_b30/
 beta_3.6562_m0.06703_muoverpit_0.14_b30/
 beta_3.6562_m0.06703_muoverpit_0.17_b30/
+beta_3.6562_m0.06703_muoverpit_0.1_b30/
