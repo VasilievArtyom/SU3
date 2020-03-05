@@ -1,0 +1,4 @@
+[05-03-2020 23:54:25] (src/linal.cu:144) CUDA assert failed: unspecified launch failure
+. Program terminated.
+
+Program terminated.
