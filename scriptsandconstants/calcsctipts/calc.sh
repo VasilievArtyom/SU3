@@ -12,7 +12,7 @@
 #scriptspath=/home/vasiliev_artyom/_scratch/compute/SU3/scriptsandconstants/calcscripts
 #module add cuda/6.5
 
-for task in {22..31}
+for task in {26..31}
 do
     #srun -n1 --exclusive ${scriptspath}/task${task}.sh &
     ./${scriptspath}/task${task}.sh

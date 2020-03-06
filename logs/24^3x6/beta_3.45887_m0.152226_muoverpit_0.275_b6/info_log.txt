@@ -1,0 +1,3 @@
+#Starting calculation, 101 configurations, 0 offset, index file: /home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.45887_m0.152226_muoverpit_0.275_b6/index.txt
+#N_stochastic_estimator = 6
+0	-0.003730711725020
