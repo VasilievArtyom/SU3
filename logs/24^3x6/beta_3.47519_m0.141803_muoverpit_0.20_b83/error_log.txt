@@ -1,0 +1,4 @@
+[08-03-2020 10:46:17] (src/lattice.cpp:20) CUDA assert failed: all CUDA-capable devices are busy or unavailable
+. Program terminated.
+
+Program terminated.

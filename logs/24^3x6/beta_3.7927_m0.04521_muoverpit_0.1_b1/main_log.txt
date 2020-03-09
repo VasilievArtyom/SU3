@@ -30,3 +30,8 @@ Arch = 3.5
 --------------------------------------------------
 Strange quark enabled
 Starting calculation, 200 configurations, 0 offset, index file: /home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.7927_m0.04521_muoverpit_0.1_b1/index.txt
+Ending calculation
+End time: 07-03-2020 03:58:59
+--------------------------------------------------
+-                HMC SU3 completed               -
+--------------------------------------------------
