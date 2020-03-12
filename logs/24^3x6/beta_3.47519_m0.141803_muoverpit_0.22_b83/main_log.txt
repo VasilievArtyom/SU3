@@ -1,10 +1,10 @@
 --------------------------------------------------
 -                HMC SU3 started                 -
 --------------------------------------------------
-Start time: 08-03-2020 10:46:17
+Start time: 12-03-2020 01:37:04
 Command line: 
 
-/home/clusters/01/vasiliev/_sсratch/proj/SU3_stag/bin/SU3_stag -G/1 -L/home/clusters/01/vasiliev/_sсratch/compute/SU3/logs/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/ -O/home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/ -D/home/clusters/01/vasiliev/_sсratch/compute/SU3/output/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/ -Nconf -C/home/clusters/01/vasiliev/_sсratch/compute/SU3/scriptsandconstants/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/constants.txt -Ao 
+/home/clusters/01/vasiliev/_sсratch/proj/SU3_stag/bin/SU3_stag -G/0 -L/home/clusters/01/vasiliev/_sсratch/compute/SU3/logs/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/ -O/home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/ -D/home/clusters/01/vasiliev/_sсratch/compute/SU3/output/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/ -Nconf -C/home/clusters/01/vasiliev/_sсratch/compute/SU3/scriptsandconstants/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/constants.txt -Ao 
 
 Command line parameters:
 Directory with configurations:   /home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/
@@ -28,3 +28,5 @@ totalGlobalMem = 5976424448 bytes
 sharedMemPerBlock = 49152 bytes
 Arch = 3.5
 --------------------------------------------------
+Strange quark enabled
+Starting calculation, 101 configurations, 0 offset, index file: /home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.47519_m0.141803_muoverpit_0.22_b83/index.txt
