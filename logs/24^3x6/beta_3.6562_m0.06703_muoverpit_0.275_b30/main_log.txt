@@ -1,0 +1,32 @@
+--------------------------------------------------
+-                HMC SU3 started                 -
+--------------------------------------------------
+Start time: 12-03-2020 19:48:27
+Command line: 
+
+/home/clusters/01/vasiliev/_sсratch/proj/SU3_stag/bin/SU3_stag -G/0 -L/home/clusters/01/vasiliev/_sсratch/compute/SU3/logs/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/ -O/home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/ -D/home/clusters/01/vasiliev/_sсratch/compute/SU3/output/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/ -Nconf -C/home/clusters/01/vasiliev/_sсratch/compute/SU3/scriptsandconstants/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/constants.txt -Ao 
+
+Command line parameters:
+Directory with configurations:   /home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/
+Output directory:                /home/clusters/01/vasiliev/_sсratch/compute/SU3/output/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/
+Calculator options:              o
+Logs output directory:           /home/clusters/01/vasiliev/_sсratch/compute/SU3/logs/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/
+Constants file:                  /home/clusters/01/vasiliev/_sсratch/compute/SU3/scriptsandconstants/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/constants.txt
+Pack number:                     0
+--------------------------------------------------
+-                CUDA Parameters                 -
+--------------------------------------------------
+Device Number = 0
+Name = Tesla K20Xm
+Compute mode: 3
+maxThreadsPerBlock = 1024
+warpSize = 32
+maxGridSize.x = 2147483647
+maxGridSize.y = 65535
+maxThreadsDim.x = 1024
+totalGlobalMem = 5976424448 bytes
+sharedMemPerBlock = 49152 bytes
+Arch = 3.5
+--------------------------------------------------
+Strange quark enabled
+Starting calculation, 114 configurations, 0 offset, index file: /home/clusters/01/vasiliev/_sсratch/compute/SU3/configurations/24^3x6/beta_3.6562_m0.06703_muoverpit_0.275_b30/index.txt
