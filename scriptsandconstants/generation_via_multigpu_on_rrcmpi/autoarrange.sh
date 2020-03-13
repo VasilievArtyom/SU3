@@ -18,6 +18,7 @@ declare -a arr=(
 )
 
 let j=0
+rm -rf runscripts
 for i in "${arr[@]}"
 do
     Ls=$( echo $i | cut -d' ' -f1)
@@ -32,11 +33,19 @@ do
     mu_im_s=$( echo $i | cut -d' ' -f'10')
     mu_isospin=$( echo $i | cut -d' ' -f'11')
     lambda=$( echo $i | cut -d' ' -f'12')
-    logspath=/home/clusters/01/vasiliev/job_id=0/compute/logs /${Ls}^3x${Lt}/${pathto}
-    confpath=/home/clusters/01/vasiliev/job_id=0/compute/configurations /${Ls}^3x${Lt}/${pathto}
-    outppath=/home/clusters/01/vasiliev/job_id=0/compute/output /${Ls}^3x${Lt}/${pathto}
-    conspath=/home/clusters/01/vasiliev/job_id=0/compute/scriptsandconstants /${Ls}^3x${Lt}/${pathto}
-
-    bash printconstants.sh ${Ls} ${Lt} ${beta} ${m_qa} ${m_sa} ${nfluxes} ${mu5} ${mu_im_u} ${mu_im_d} ${mu_im_s} ${mu_isospin} ${lambda} >> .txt
+    logspath=/home/clusters/01/vasiliev/job_id=0/compute/logs/Ls=${Ls}/Lt=${Lt}/beta=${beta}/m_qa=${m_qa}/m_sa=${m_sa}/nfluxes=${nfluxes}/mu5=${mu5}/mu_im_u=${mu_im_u}/mu_im_d=${mu_im_d}/mu_im_s=${mu_im_s}/mu_isospin=${mu_isospin}/lambda=${lambda}
+    confpath=/home/clusters/01/vasiliev/job_id=0/compute/configurations/Ls=${Ls}/Lt=${Lt}/beta=${beta}/m_qa=${m_qa}/m_sa=${m_sa}/nfluxes=${nfluxes}/mu5=${mu5}/mu_im_u=${mu_im_u}/mu_im_d=${mu_im_d}/mu_im_s=${mu_im_s}/mu_isospin=${mu_isospin}/lambda=${lambda}
+    outppath=/home/clusters/01/vasiliev/job_id=0/compute/output/Ls=${Ls}/Lt=${Lt}/beta=${beta}/m_qa=${m_qa}/m_sa=${m_sa}/nfluxes=${nfluxes}/mu5=${mu5}/mu_im_u=${mu_im_u}/mu_im_d=${mu_im_d}/mu_im_s=${mu_im_s}/mu_isospin=${mu_isospin}/lambda=${lambda}
+    conspath=/home/clusters/01/vasiliev/job_id=0/compute/scriptsandconstants/Ls=${Ls}/Lt=${Lt}/beta=${beta}/m_qa=${m_qa}/m_sa=${m_sa}/nfluxes=${nfluxes}/mu5=${mu5}/mu_im_u=${mu_im_u}/mu_im_d=${mu_im_d}/mu_im_s=${mu_im_s}/mu_isospin=${mu_isospin}/lambda=${lambda}
+    path_to_SU3_stag=/home/clusters/01/vasiliev/job_id=0/proj/SU3_stag/builds/rrcmpi_a/bin/SU3_stag
+    mkdir -p ${logspath}
+    mkdir -p ${confpath}
+    mkdir -p ${outppath}
+    mkdir -p ${conspath}
+    rm ${conspath}/constants.txt
+    bash printconstants.sh ${Ls} ${Lt} ${beta} ${m_qa} ${m_sa} ${nfluxes} ${mu5} ${mu_im_u} ${mu_im_d} ${mu_im_s} ${mu_isospin} ${lambda} >> ${conspath}/constants.txt
+    mkdir -p runscripts/${j}
+    bash gen_task.sh ${path_to_SU3_stag} ${logspath} ${confpath} ${outppath} ${confpath}/constants.txt >> runscripts/${j}/task_${j}.sh
+    let j++
 done
 
