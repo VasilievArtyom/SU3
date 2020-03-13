@@ -1,9 +1,9 @@
 Ls, spatial lattice size
-28
+28 4 4.140 0.000364945152 0.00128128 0 0 0 0 0 0 '0.000000000'
 Lt, temporal lattice size
-4
+
 beta
-4.140
+
 c_plaq
 1.0
 c_rect
@@ -33,18 +33,18 @@ N_max_acc, maximal acceptance rate
 flag_add_fermions, 0 --- without fermions, 1 --- with fermions
 0
 m_qa, mass of the light quarks
-0.000364945152
+
 flag_add_strange_quark, 0 --- without s-quark, 1 --- with s-quark
 0
 m_sa, mass of the strange quark
-0.00128128
+
 /home/clusters/01/vasiliev/_sсratch/proj/SU3_stag/approx_files/InvFourthRoot.txt
 /home/clusters/01/vasiliev/_sсratch/proj/SU3_stag/approx_files/InvFourthRoot_fine.txt
 /home/clusters/01/vasiliev/_sсratch/proj/SU3_stag/approx_files/EighthRoot.txt
 Parameters CG for MD, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)
 0 1e-6 0.1
 Parameters CG for Metro, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)
-0 1e-6 0.1
+0 1e-8 0.1
 Parameters CG for Observables, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)
 0 1e-6 0.1
 CG_max_iterations(for all types)
@@ -65,12 +65,12 @@ n_print_obs, only for (n_print_obs)th configuration observables will be calculat
 n_fermions, n-root trick (useful only for n_rooting > 1)
 1
 Magnetic fields (nfluxes), this flag should be used together with the macros EMFIELD in Makefile.var
-0
+
 mu5 (0=const, 1=from file). Next value is either constant or file_name. Only 0 works now
-0 0
+0 
 mu_im_u mu_im_d mu_im_s, imaginary chemical potential for each quark
-0 0 0
+  
 mu_isospin and lambda, isospin chemical potential for light quarks and isospin breaking source (the macros MUISO in Makefile.var has to be enabled)
-0.000000000 
+ 
 nev m, number of eigenvectors for deflation (to enable deflated solver set it non-zero) and restart frequency (m has to be > 2 * nev)
 8 40 200

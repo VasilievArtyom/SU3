@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-projpath=/home/clusters/01/vasiliev/_sсratch/proj/SU3_stag
+projpath=/home/clusters/01/vasiliev/job_id=0/proj/SU3_stag
 
 Ls=$1
 Lt=$2
@@ -62,7 +62,7 @@ echo "${projpath}/approx_files/EighthRoot.txt"
 echo 'Parameters CG for MD, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)'
 echo '0 1e-6 0.1'
 echo 'Parameters CG for Metro, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)'
-echo '0 1e-6 0.1'
+echo '0 1e-8 0.1'
 echo 'Parameters CG for Observables, type (0 = double, 1 = mixed, 2 = float), epsilon, delta (relevant only for CG_type == 1)'
 echo '0 1e-6 0.1'
 echo 'CG_max_iterations(for all types)'
